@@ -17,6 +17,3 @@ techs.forEach(tech => {
     observer.observe(tech)
 })
 
-setTimeout(() => {
-    document.querySelector()
-}, 3000)

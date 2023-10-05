@@ -376,7 +376,7 @@ header {
 }
 
 .download {
-    padding: 2rem 0;
+    padding: 2rem 0 3rem ;
     display: flex;
     justify-content: center;
 }
