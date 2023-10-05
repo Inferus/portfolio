@@ -203,7 +203,7 @@ header {
 .greet__text {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
     text-align: center;
     position: relative;
 }
@@ -361,4 +361,22 @@ header {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 1rem;
+}
+
+.btn-cv {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.btn-cv img {
+    height: 1rem;
+    filter: invert(100%);
+    padding-left: 1rem;
+}
+
+.download {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
 }
