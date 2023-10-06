@@ -72,6 +72,10 @@ section {
     padding: 0 15px;
 }
 
+.greet{ 
+    min-height: 100vh;
+}
+
 .greet__title {
     font-size: 3rem;
     font-weight: 600;
@@ -319,6 +323,10 @@ header {
     color: white;
     padding: 2rem 0;
     text-align: center;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .footer a {
@@ -332,9 +340,8 @@ header {
 
 @media screen and (min-width: 768px) {
     .footer {
-        display: flex;
         justify-content: space-around;
-
+        flex-direction: row;
     }
 
     
@@ -412,3 +419,10 @@ a {
     background-color: var(--blue);
 }
 
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
