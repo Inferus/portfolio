@@ -238,6 +238,7 @@ header {
     padding: .5rem;
     font-weight: 500;
     opacity: 0;
+    cursor: pointer;
 }
 .portfolio__text {
     margin-bottom: 2rem;
@@ -425,4 +426,62 @@ a {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+}
+
+.modal {
+    background-color: white;
+    position: absolute;
+    left: 0;
+    transition: all .5s;
+    width: 0;
+    height: 0;
+    padding-top: 6rem;
+    color: black;
+}
+
+
+.modal__title {
+    font-size: 3rem;
+}
+
+
+.modal__close {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    border: none;
+    background: #D81159;
+    color: white;
+    font-size: 2rem;
+    padding: .5rem 1rem;
+    cursor: pointer;
+    border-radius: .5rem;
+}
+
+.modal__img {
+    width: 10rem;
+}
+
+@media (max-width: 500px) {
+    .modal__close {
+        top: 15%;
+        right: 10%;
+    }
+}
+
+.react-logo {
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
 }
