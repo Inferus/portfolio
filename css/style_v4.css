@@ -155,9 +155,7 @@ header {
 .contact__title {
     text-align: center;
     font-size: 2rem;
-    padding-top: 5rem;
     font-weight: 600;
-    margin-bottom: 3rem;
 }
 @media screen and (min-width: 768px) {
     .contact__title {
@@ -354,6 +352,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 5rem;
+    padding: 4rem 0;
 }
 @media screen and (min-width: 768px) {
     .contact__wrapper {
