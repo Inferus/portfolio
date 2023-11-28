@@ -2,7 +2,7 @@
 
 ## Link
 
-- [link](https://dekhterinskiy.dev)
+- [Dekhterinskiy.dev](https://dekhterinskiy.dev)
 
 
 ## Stack
