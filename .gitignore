@@ -1,8 +1,8 @@
 gulpfile.js
 node_modules
 components
-css
+/css
 pages
-scss
-js
-assets
+/scss
+/js
+/assets
