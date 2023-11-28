@@ -17,3 +17,4 @@ techs.forEach(tech => {
     observer.observe(tech)
 })
 
+const lol = 1;
